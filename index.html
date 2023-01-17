@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fonte awesome -->
+    <script src="https://kit.fontawesome.com/ffac436eac.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg fixed-top my-30">
+            <div class="container-fluid margem-nav">
+                <div>
+                    <i class="fa-solid fa-code me-2 text-light ms-1"></i>
+                    <a class="navbar-brand ms-1" href="#">Vitor Santos</a>
+                </div>
+                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li class="nav-link me-4" aria-current="page" href="#">Home</li>
+                        <li class="nav-link me-4" href="#Sobre">Sobre</li>
+                        <li class="nav-link me-4" href="#Habilidades">Habilidades</li>
+                        <li class="nav-link me-4" href="#Projetos">Projetos</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid margem-ctn ">
+
+        <!-- Home linha do grid -->
+        <section class="row d-flex align-items-center padding-TypeIt padding-ctn-home">
+            <div class="col-12 col-sm-12 col-md-6 ps-5">
+                <p class="txt-nome"> OLÁ, EU SOU </p>
+                <p class="nome"> <span class="nameAnimated"></span> </p>
+                <p class="txt-nome"> DESENVOLVEDOR DE SOFTWARE </p>
+
+                <a href="https://www.linkedin.com/in/vitor-alves-168201251/" class="btn btn-outline-primary btn-lg mt-3 me-5">
+                    <span><i class="fa-brands fa-linkedin-in me-1"></i></span> Linkedin</a>
+                    
+                <a href="" class="btn btn-outline-primary btn-lg mt-3">
+                    <span><i class="fa-brands fa-github me-1"></i></span> Git Hub</a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 padding-svg">
+                <img src="images/developer.svg" class="developer-svg" alt="">
+            </div>
+        </section>
+        <!-- Home fim linha do grid -->
+
+        <!-- Sobre linha do grid -->
+        <section id="Sobre" class="row bg2 justify-content-center padding-ctns">
+            <p class="h1 mb-5 text-light text-center">SOBRE MIM</p>
+
+            <div class="col-12 col-sm-12 col-md-6 text-center mb-foto-mobile">
+                <img src="images/Foto Vitor.jpg" class="fotoVitor" alt="">
+            </div>
+            <article class="col-12 col-sm-12 col-md-6 text-light fs-5 padding-svg txt-estilo">
+                <p class="me-3">Olá, eu sou Vitor Santos Alves e estou buscando minha primeira experiência
+                    profissional no mercado de T.I.</p>
+                <p class="me-3">Estou cursando o terceiro semestre de Sistemas de informação na FIAP e tembém tenho
+                    formação em técnico em mecatrônica.</p>
+                <p class="me-3">Na minha opniaõa os poucos genios do futebol mundial por posição são
+                    na zaga Van Dijk na volancia little Fabio e na meia o GOAT messi</p>
+
+                <a href="Curriculo/curriculocia Vitor.pdf" download="curriculocia Vitor.pdf" type="application/pdf"
+                 class="btn btn-outline-primary btn-lg mt-3 me-5">
+                 <span><i class="fa-solid fa-cloud-arrow-down me-1"></i></span> Curriculo</a>
+
+                <a href="mailto:vitorsalves0812@gmail.com"  class="btn btn-outline-primary btn-lg mt-3">
+                    <span><i class="fa-regular fa-envelope me-1"></i></span> E-mail</a>
+            </article>
+        </section>
+        <!-- Sobre fim linha do grid -->
+
+        <!-- Habilidades linha do grid -->
+
+        <section class="row  justify-content-center bg ps-4 padding-ctns" id="Habilidades">
+            <p class="h1 mb-5 text-light text-center">HABILIDADES</p>
+
+            <div class="col-12 col-sm-12 col-md-6 text-center" id="icons">
+                <i class="fa-brands fa-html5 icon" id="iconHtml"></i>
+                <i class="fa-brands fa-java icon" id="iconJava"></i>
+                <i class="fa-brands fa-square-js icon" id="iconJs"></i><br>
+                <i class="fa-brands fa-css3-alt icon" id="iconCss"></i>
+                <i class="fa-brands fa-bootstrap icon margem-boots" id="iconBoots"></i>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 text-light text-start padding-svg" id="divDescri">
+                <p class="text-light fs-5 pt-4 m-descricao" id="descricaoIcons">/* Passe o mouse por cima de alguma
+                    habilidade para ver a descrição */</p>
+
+                <p id="malandro" class="fs-5 txt-estilo m-descricao"></p>
+
+                <p id="p1" class="fs-5 txt-estilo m-descricao"></p>
+
+                <p id="p2" class="fs-5 txt-estilo m-descricao"></p>
+            </div>
+        </section>
+        <!-- Habilidades fim linha do grid -->
+
+        <!-- Projetos linha do grid -->
+        <section class="row bg2 justify-content-evenly padding-ctns" id="Projetos">
+            <p class="h1 mb-5 text-light text-center">PROJETOS</p>
+
+            <article class="card text-light m-bottom-card" style="width: 18rem;">
+                <img src="images/receita-abacate.jpg" class="card-img-top img-card" alt="Tigela de abacate">
+                <div class="card-body txt-estilo">
+                    <h5 class="card-title">Fruta & Fruto</h5>
+                    <p class="card-text">Landing Page feita no curso de Bootstrap4 da Alura com as tecnologias: HTML, CSS
+                        e framework Bootstrap. </p>
+                    <a href="https://frutaefruto-vitorsalves.netlify.app/index.html" class="btn btn-primary">Ver
+                        projeto</a>
+                </div>
+            </article>
+
+            <article class="card text-light m-bottom-card" style="width: 18rem;">
+                <img src="images/crud reduzido.png" class="card-img-top img-card" alt="imagem do site de CRUD">
+                <div class="card-body txt-estilo">
+                    <h5 class="card-title">CRUD</h5>
+                    <p class="card-text">Lista de funcionários onde se pode incluir, ler, editar e excluir dados. Tecnologias: HTML, CSS e Javascript.</p>
+                    <a href="https://crud-vitorsantos.netlify.app/" class="btn btn-primary">Ver projeto</a>
+                </div>
+            </article>
+
+            <article class="card text-light" style="width: 18rem;">
+                <img src="images/img-gerador-senha.png" class="card-img-top img-card" alt="Tigela de abacate">
+                <div class="card-body txt-estilo">
+                    <h5 class="card-title">Gerador de senha</h5>
+                    <p class="card-text">Projeto que cria senhas aleatórias de cinco a vinte caracteres automaticamente. Tecnologias: HTML, CSS e Javascript.</p>
+                    <a href="https://geradorsenha-vitorsantos.netlify.app" class="btn btn-primary">Ver projeto</a>
+                </div>
+            </article>
+        </section>
+        <!-- Projetos fim linha do grid -->
+
+        <div class="row">
+            <footer class="bg p-2 text-center">
+                <p class="text-light m-0">vitorsalves0812@gmail.com</p>
+            </footer>
+        </div>
+        
+    </main>
+
+    <!-- script bootstrap -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- script svg -->
+    <script
+        type='text/javascript'>document.addEventListener('DOMContentLoaded', function () { window.setTimeout(document.querySelector('svg').classList.add('animated'), 1000); }) </script>
+    <!-- script app.js -->
+    <script src="js/app.js"></script>
+    <!-- biblioteca TypeIt -->
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <!-- script icons.js -->
+    <script src="js/icons.js"></script>
+
+</body>
+
+</html>
