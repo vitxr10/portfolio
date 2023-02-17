@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 
-/* cor bg do portifa gabriela: #121212 dps #151515*/
-
-body{
+body {
   font-family: 'Roboto Slab', serif;
 }
 
@@ -39,17 +37,16 @@ body{
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 
-
 .margem-nav {
   margin-right: 130px;
   margin-left: 130px;
 }
 
-.padding-TypeIt{
+.padding-TypeIt {
   padding-left: 100px;
 }
 
-.padding-svg{
+.padding-svg {
   padding-right: 120px;
 }
 
@@ -67,7 +64,7 @@ body{
   font-size: 28px;
 }
 
-.padding-ctns{
+.padding-ctns {
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -76,53 +73,52 @@ body{
   margin-top: 3.5rem !important;
 }
 
-.padding-ctn-home{
+.padding-ctn-home {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.container-foto-size{
+.container-foto-size {
   height: 100vh;
 }
 
-.bg{
+.bg {
   background-color: #121212;
 }
 
-.bg2{
+.bg2 {
   background-color: #151515;
 }
 
-.fotoVitor{
+.fotoVitor {
   height: 40vh;
   width: 40vh;
   border-radius: 155px;
 }
 
-.txt-estilo{
+.txt-estilo {
   text-align: justify;
 }
 
-.icon{
+.icon {
   font-size: 6rem;
   margin: 25px;
   color: #fff;
 }
 
-.margem-boots{
+.margem-boots {
   margin-right: 40px;
 }
 
-.background-projetos{
+.background-projetos {
   background-color: #407BFF;
 }
 
-.img-card{
+.img-card {
   height: 200px;
 }
 
-
-.br-descricao{
+.br-descricao {
   margin-top: -50px;
 }
 
@@ -174,17 +170,24 @@ body{
   --bs-btn-disabled-border-color: #0d6efd;
 }
 
-
-.m-bottom-card{
+.m-bottom-card {
   margin-bottom: 0;
 }
 
-.m-descricao{
+.m-descricao {
   margin-right: 0;
 }
 
-.mb-foto-mobile{
+.mb-foto-mobile {
   margin-bottom: 0;
+}
+
+.hover-img img{
+  filter: grayscale(100%);
+}
+
+.hover-img img:hover{
+  filter: grayscale(0%);
 }
 
 /* ******************************************** RESPONSIVE SETTINGS ****************************************************** */
@@ -195,7 +198,7 @@ body{
     margin: 0;
   }
 
-  .section1-margem{
+  .section1-margem {
     margin-top: 300px;
   }
 
@@ -204,7 +207,7 @@ body{
     font-size: 30px;
     color: #407BFF;
   }
-  
+
   .txt-nome {
     font-size: 14px;
     font-weight: 600;
@@ -214,35 +217,35 @@ body{
     margin-top: 5rem !important;
   }
 
-  .padding-TypeIt{
+  .padding-TypeIt {
     padding-left: 0px;
   }
-  
-  .padding-svg{
+
+  .padding-svg {
     padding-right: 0px;
   }
 
-  .fotoVitor{
+  .fotoVitor {
     height: 33vh;
     width: 33vh;
     border-radius: 155px;
   }
-  
-  .icon{
+
+  .icon {
     font-size: 3rem;
     margin: 23px;
     color: #fff;
   }
 
-  .m-bottom-card{
+  .m-bottom-card {
     margin-bottom: 33px;
   }
 
-  .m-descricao{
+  .m-descricao {
     margin-right: 30px;
   }
 
-  .txt-estilo{
+  .txt-estilo {
     text-align: justify;
   }
 
@@ -250,18 +253,12 @@ body{
     font-size: 1rem !important;
   }
 
-  .mb-foto-mobile{
+  .mb-foto-mobile {
     margin-bottom: 30px;
   }
-  
-  /* .btn-lg, .btn-group-lg > .btn {
-    --bs-btn-padding-y: 0.5rem;
-    --bs-btn-padding-x: 1rem;
-    --bs-btn-font-size: 1.25rem;
-    --bs-btn-border-radius: 0.5rem;
-  } */
 
-  .btn-lg, .btn-group-lg > .btn {
+  .btn-lg,
+  .btn-group-lg>.btn {
     --bs-btn-padding-y: 0.40rem;
     --bs-btn-padding-x: 0.70rem;
     --bs-btn-font-size: 0.80rem;
@@ -271,8 +268,5 @@ body{
   .me-5 {
     margin-right: 1.5rem !important;
   }
- 
-  
-  
 
 }
