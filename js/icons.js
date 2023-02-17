@@ -9,10 +9,10 @@ const iconCss = document.getElementById('iconCss');
 const iconBoots = document.getElementById('iconBoots');
 
 const txtPadrao = "/* Passe o mouse por cima de alguma habilidade para ver a descrição */";
-const malandro = document.createElement('div');
-malandro.id = 'malandro';
+const p0 = document.createElement('div');
+p0.id = 'p0';
 
-document.body.appendChild(malandro);
+document.body.appendChild(p0);
 
 function mouseoverEventHandler(icon, desc, text1, text2) {
     icon.addEventListener('mouseover', () => {
