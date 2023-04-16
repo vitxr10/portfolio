@@ -42,7 +42,7 @@ body {
   margin-left: 130px;
 }
 
-.padding-TypeIt {
+.padding-animacao {
   padding-left: 100px;
 }
 
@@ -55,12 +55,12 @@ body {
   max-height: 90vh;
 }
 
-.nome {
+.nome-animacao {
   font-size: 60px;
   color: #407BFF;
 }
 
-.txt-nome {
+.txt-animacao  {
   font-size: 28px;
 }
 
@@ -202,13 +202,13 @@ body {
     margin-top: 300px;
   }
 
-  .nome {
+  .nome-animacao {
     margin-top: 0px;
     font-size: 30px;
     color: #407BFF;
   }
 
-  .txt-nome {
+  .txt-animacao {
     font-size: 14px;
     font-weight: 600;
   }
@@ -217,7 +217,7 @@ body {
     margin-top: 5rem !important;
   }
 
-  .padding-TypeIt {
+  .padding-animacao {
     padding-left: 0px;
   }
 
