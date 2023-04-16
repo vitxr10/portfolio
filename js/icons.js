@@ -6,7 +6,8 @@ const iconHtml = document.getElementById('iconHtml');
 const iconJava = document.getElementById('iconJava');
 const iconJs = document.getElementById('iconJs');
 const iconCss = document.getElementById('iconCss');
-const iconBoots = document.getElementById('iconBoots');
+const iconSql = document.getElementById('iconSql');
+const iconGit = document.getElementById('iconGit');
 
 const txtPadrao = "/* Passe o mouse por cima de alguma habilidade para ver a descrição */";
 const p0 = document.createElement('div');
@@ -30,20 +31,23 @@ function mouseoutEventHandler(icon) {
     });
 }
 
-mouseoverEventHandler(iconHtml, 'HTML', 'É uma linguagem de marcação utilizada na construção de páginas na Web.', 'Tenho 1 ano de experiência com essa tecnologia e possuo conhecimento em Semântica, tabelas, formulários, etc.');
+mouseoverEventHandler(iconHtml, 'HTML', 'Estudo essa linguagem de marcação para construção de páginas web há um ano e meio.', 'Possuo conhecimento em semântica, acessibilidade, inserção de imagens, criação de links, tabelas, formulários, boas práticas, etc.');
 mouseoutEventHandler(iconHtml);
 
-mouseoverEventHandler(iconJava, 'Java', 'É a minha linguagem de programação favorita, tenho um nível de conhecimento intermediário nessa tecnologia e um ano de experiência.', 'Possuo conhecimento em estrutura de seleção e repetição, algoritmos de ordenação, funções, orientação a objetos, vetores e matrizes, etc.');
+mouseoverEventHandler(iconJava, 'Java', 'Estudo essa linguagem de programação utilizando o paradigma de Orientação a Objetos há um ano e meio.', 'Possuo conhecimento em encapsulamento, herança, polimorfismo, estruturas de seleção e repetição, algoritmos de ordenação, classes e métodos, arrays, etc.');
 mouseoutEventHandler(iconJava);
 
-mouseoverEventHandler(iconJs, 'Javascript', 'Tenho menos tempo de experiência com essa linguagem de programação, 6 meses, mas estou gostando bastante por ela ser mais fácil e menos verbosa que o Java.', 'Tenho conhecimento em DOM, funções, arrays e estruturas de seleção e repetição.');
+mouseoverEventHandler(iconJs, 'Javascript', 'Estudo essa linguagem de programação há um ano com o objetivo de tornar minhas aplicações web mais dinâmicas e interativas.', 'Possuo conhecimento em DOM, validação de formulários, animações, gerenciamento de eventos, funções, arrays e estruturas de seleção e repetição.');
 mouseoutEventHandler(iconJs);
 
-mouseoverEventHandler(iconCss, 'CSS', 'É uma linguagem de estilo utilizada para definir a aparência de documentos escritos em HTML.', 'Estudo essa tecnologia a um ano e tenho conhecimento em flexbox, grid, design reponsivo, animações básicas, etc.');
+mouseoverEventHandler(iconCss, 'CSS', 'Estudo essa linguagem de estilo há um ano e meio.', 'Tenho conhecimento em seletores, posicionamento, flexbox, grid, design reponsivo, animações e transições básicas.');
 mouseoutEventHandler(iconCss);
 
-mouseoverEventHandler(iconBoots, 'Bootstrap', 'É um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples.', 'Tenho 8 meses de experiência com esse framework e já criei algumas landing pages.');
-mouseoutEventHandler(iconBoots);
+mouseoverEventHandler(iconSql, 'SQL', 'Estudo essa linguagem com o banco de dados Oracle há seis meses.', 'Possuo conhecimento em comandos básicos (SELECT, INSERT, UPDATE e DELETE), chaves primárias e estrangeiras, criação de tabelas e operações de consulta.');
+mouseoutEventHandler(iconSql);
+
+mouseoverEventHandler(iconGit, 'Git', 'Utilizo o Git e o Github para armazenar meus projetos há um ano.', 'Tenho conhecimento em criação de repositórios, controle de versão e comandos básicos como como git init, git clone, git add, git commit, git push, git pull, etc.');
+mouseoutEventHandler(iconGit);
 
 
 
